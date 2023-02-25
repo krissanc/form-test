@@ -1,0 +1,26 @@
+.navbar {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #393053;
+}
+
+/* .navbar-ul {
+    
+} */
+
+.navbar-li {
+    display: inline-block;
+    list-style: none;
+    padding-right: 15px;
+    transition: 0.3s;
+}
+
+.navbar-a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.navbar-li:hover {
+    transform: translateY(-2px);
+}
