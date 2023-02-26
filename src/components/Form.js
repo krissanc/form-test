@@ -24,7 +24,7 @@ function Form() {
             <header className="App-header">
 
                 <form className="my-form" onSubmit={submitHandler}>
-                    <h2> Form Test </h2>
+                    <h2> {formValue} </h2>
                     <input type="text" value={formValue} onChange={handleChange}></input>
                     <button> Submit </button>
                 </form>
